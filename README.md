@@ -6,7 +6,7 @@ Selenium (pip install selenium)
 Win10toast (pip install win10toast)  
 Python >=3.8  
 Chrome  
-Windows 7+
+Windows 10+
 
 ## Get Started
 

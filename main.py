@@ -17,11 +17,12 @@ element = WebDriverWait(driver, 10).until(
 
 # desktop notification init
 toaster = ToastNotifier()
-LastPrice = ''
+last_price = ''
+availability = element.text
 while True:
-    if element.text != '0' and element.text != LastPrice:
-        LastPrice = element.text
+    if availability != '0' and availability != last_price:
+        last_price = availability
         toaster.show_toast("MIM Availability Alert", "Number of MIM available: "
-                           + element.text, threaded=True, icon_path=None, duration=10)
+                           + availability, threaded=True, icon_path=None, duration=10)
 
 

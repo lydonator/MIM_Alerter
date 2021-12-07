@@ -32,7 +32,7 @@ Run main.py
 This is a simple web scraping utility that grabs MIM token availability from Abracadabra and serves the information as desktop alerts.
 
 # Who is it for?
-Primarily it is for users of Wonderland Time who wish to use wMemo as collateral to buy MIM tokens. MIM tokens are in short supply,
+Primarily it is for users of Wonderland Time who wish to use wMemo as collateral to borrow MIM tokens. MIM tokens are in short supply,
 Therefore it can be difficult to get a hold of them without constantly watching the site. This tool has been helpful for me, hopefully 
 It will be for others too.
 

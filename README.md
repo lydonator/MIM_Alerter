@@ -5,14 +5,16 @@ Desktop alerts for MIM token availability on Abracadabra.Money
 Selenium (pip install selenium)  
 Win10toast (pip install win10toast)  
 Python >=3.8  
-Chrome
+Chrome  
+Windows 7+
 
 ## Get Started
 
 ### Step 1: Launch Chrome with remote debugging in a new profile
-Open a command prompt and execute the following:
+Open a command prompt and execute the following:  
+(Chrome.exe must be in your Environment Path. See https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53)  
 
-### chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\MIM_Alert\ChromeProfile"
+*chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\MIM_Alert\ChromeProfile"*
 
 ### Step 2: Synchronise extensions and import Metamask
 Connect to your Google profile and synchronise your extensions. Import your Metamask account, login and add the Avalanche Chain

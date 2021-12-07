@@ -8,7 +8,6 @@ from win10toast import ToastNotifier
 
 # Connect to local Chrome instance with imported Metamask wallet
 option = webdriver.ChromeOptions()
-# Run in CMD: chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\ChromeProfile"
 option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)
 element = WebDriverWait(driver, 10).until(

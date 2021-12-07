@@ -21,6 +21,6 @@ last_count = ''
 while True:
     if element.text != '0' and element.text != last_count:
         last_count = element.text
-        toaster.show_toast("MIM element.text Alert", "Number of MIM available: "
+        toaster.show_toast("MIM Availability Alert", "Number of MIM available: "
                            + element.text, threaded=True, icon_path=None, duration=10)
 
